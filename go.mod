@@ -28,7 +28,7 @@ require (
 	github.com/apple/foundationdb/bindings/go v0.0.0-20190411004307-cd5c9d91fad2
 	github.com/armon/go-metrics v0.4.0
 	github.com/armon/go-radix v1.0.0
-	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a
+	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
 	github.com/aws/aws-sdk-go v1.43.4
 	github.com/cenkalti/backoff/v3 v3.2.2
 	github.com/chrismalek/oktasdk-go v0.0.0-20181212195951-3430665dfaa0
@@ -170,7 +170,7 @@ require (
 	go.etcd.io/etcd/client/v2 v2.305.0
 	go.etcd.io/etcd/client/v3 v3.5.0
 	go.mongodb.org/atlas v0.15.0
-	go.mongodb.org/mongo-driver v1.7.3
+	go.mongodb.org/mongo-driver v1.7.5
 	go.opentelemetry.io/otel v0.20.0
 	go.opentelemetry.io/otel/sdk v0.20.0
 	go.opentelemetry.io/otel/trace v0.20.0
@@ -195,6 +195,16 @@ require (
 )
 
 require (
+	github.com/go-openapi/errors v0.19.8 // indirect
+	github.com/go-openapi/strfmt v0.21.2 // indirect
+	github.com/go-playground/locales v0.14.0 // indirect
+	github.com/go-playground/universal-translator v0.18.0 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
+	github.com/oklog/ulid v1.3.1 // indirect
+	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
+)
+
+require (
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.2.0 // indirect
 	cloud.google.com/go/iam v0.1.1 // indirect
@@ -214,6 +224,7 @@ require (
 	github.com/Azure/go-ntlmssp v0.0.0-20200615164410-66371956d46c // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/DataDog/datadog-go v3.2.0+incompatible // indirect
+	github.com/IBM/go-sdk-core/v5 v5.10.1
 	github.com/Jeffail/gabs v1.1.1 // indirect
 	github.com/Masterminds/goutils v1.1.0 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
